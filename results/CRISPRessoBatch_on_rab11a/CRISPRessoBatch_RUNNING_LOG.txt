@@ -1,0 +1,36 @@
+[Command used]:
+/opt/homebrew/Caskroom/miniforge/base/envs/crispresso2_env/bin/CRISPRessoBatch --batch_settings data/metadata/batch.tsv -o results -n rab11a -p 4
+
+[Execution log]:
+Running CRISPResso with 4 processes
+Completed 1/16 runs
+Completed 2/16 runs
+Completed 3/16 runs
+Completed 4/16 runs
+Completed 5/16 runs
+Completed 6/16 runs
+Completed 7/16 runs
+Completed 8/16 runs
+Completed 9/16 runs
+Completed 10/16 runs
+Completed 11/16 runs
+Completed 12/16 runs
+Completed 13/16 runs
+Completed 14/16 runs
+Completed 15/16 runs
+Completed 16/16 runs
+Finished all batches
+Reporting summary for amplicon: "Reference"
+All guides are equal. Performing comparison of batches for amplicon 'Reference'
+Plotting nucleotide percentage quilt for amplicon Reference, sgRNA GGTAGTCGTACTCGTCGTCG
+Plotting nucleotide quilt for Reference
+Analysis Complete!
+                                                                               
+                                        _                                      
+                                       '  )                                    
+                                       .-'                                     
+                                      (____                                    
+                                   C)|     \                                   
+                                     \     /                                   
+                                      \___/                                    
+

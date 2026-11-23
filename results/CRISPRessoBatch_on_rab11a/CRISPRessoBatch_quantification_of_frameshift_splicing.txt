@@ -1,0 +1,17 @@
+Batch	Reference	total_reads	modified_frameshift	modified_non_frameshift	non_modified_non_frameshift	splicing_sites_modified	splice_sites_unmodified
+NC	Reference	52861	0	0	0	0	52861
+AIO_Cas9_WT_1	Reference	45194	0	0	0	0	45194
+AIO_Cas9_WT_2	Reference	28296	0	0	0	0	28296
+RNP_WT	Reference	7975	0	0	0	0	7975
+AIO_DrRecA_1	Reference	32565	0	0	0	0	32565
+AIO_DrRecA_2	Reference	26	0	0	0	0	26
+AIO_DrRecA_20AA_1	Reference	52117	0	0	0	0	52117
+AIO_DrRecA_20AA_2	Reference	36362	0	0	0	0	36362
+AIO_RAD51_1	Reference	43592	0	0	0	0	43592
+AIO_RAD51_2	Reference	41232	0	0	0	0	41232
+AIO_RECA_1	Reference	56840	0	0	0	0	56840
+AIO_RECA_2	Reference	44210	0	0	0	0	44210
+AIO_FECO_1	Reference	51776	0	0	0	0	51776
+AIO_FECO_2	Reference	31565	0	0	0	0	31565
+AIO_Brex_1	Reference	36713	0	0	0	0	36713
+AIO_Brex_2	Reference	43302	0	0	0	0	43302

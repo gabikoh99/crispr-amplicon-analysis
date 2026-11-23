@@ -1,0 +1,17 @@
+run,sample_name,condition,replicate,delivery,fastq_r1,fastq_r2
+SRR32811088,NC,negative_control,1,none,data/fastq/SRR32811088_1.fastq.gz,data/fastq/SRR32811088_2.fastq.gz
+SRR32811087,AIO Cas9 WT 1,Cas9_WT,1,AIO_plasmid,data/fastq/SRR32811087_1.fastq.gz,data/fastq/SRR32811087_2.fastq.gz
+SRR32811080,AIO Cas9 WT 2,Cas9_WT,2,AIO_plasmid,data/fastq/SRR32811080_1.fastq.gz,data/fastq/SRR32811080_2.fastq.gz
+SRR32811081,RNP WT,Cas9_WT_RNP,1,RNP,data/fastq/SRR32811081_1.fastq.gz,data/fastq/SRR32811081_2.fastq.gz
+SRR32811073,AIO DrRecA 1,DrRecA,1,AIO_plasmid,data/fastq/SRR32811073_1.fastq.gz,data/fastq/SRR32811073_2.fastq.gz
+SRR32811086,AIO DrRecA 2,DrRecA,2,AIO_plasmid,data/fastq/SRR32811086_1.fastq.gz,data/fastq/SRR32811086_2.fastq.gz
+SRR32811083,AIO DrRecA 20AA 1,DrRecA_20AA,1,AIO_plasmid,data/fastq/SRR32811083_1.fastq.gz,data/fastq/SRR32811083_2.fastq.gz
+SRR32811082,AIO DrRecA 20AA 2,DrRecA_20AA,2,AIO_plasmid,data/fastq/SRR32811082_1.fastq.gz,data/fastq/SRR32811082_2.fastq.gz
+SRR32811075,AIO RAD51 1,RAD51,1,AIO_plasmid,data/fastq/SRR32811075_1.fastq.gz,data/fastq/SRR32811075_2.fastq.gz
+SRR32811074,AIO RAD51 2,RAD51,2,AIO_plasmid,data/fastq/SRR32811074_1.fastq.gz,data/fastq/SRR32811074_2.fastq.gz
+SRR32811077,AIO RECA 1,RECA,1,AIO_plasmid,data/fastq/SRR32811077_1.fastq.gz,data/fastq/SRR32811077_2.fastq.gz
+SRR32811076,AIO RECA 2,RECA,2,AIO_plasmid,data/fastq/SRR32811076_1.fastq.gz,data/fastq/SRR32811076_2.fastq.gz
+SRR32811079,AIO FECO 1,FECO,1,AIO_plasmid,data/fastq/SRR32811079_1.fastq.gz,data/fastq/SRR32811079_2.fastq.gz
+SRR32811078,AIO FECO 2,FECO,2,AIO_plasmid,data/fastq/SRR32811078_1.fastq.gz,data/fastq/SRR32811078_2.fastq.gz
+SRR32811085,AIO Brex 1,Brex,1,AIO_plasmid,data/fastq/SRR32811085_1.fastq.gz,data/fastq/SRR32811085_2.fastq.gz
+SRR32811084,AIO Brex 2,Brex,2,AIO_plasmid,data/fastq/SRR32811084_1.fastq.gz,data/fastq/SRR32811084_2.fastq.gz

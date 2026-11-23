@@ -1,0 +1,1823 @@
+INFO  @ Mon, 23 Nov 2026 11:34:44 (0.0% done):
+	 
+                             ~~~CRISPRessoBatch~~~                              
+       -Analysis of CRISPR/Cas9 outcomes from batch deep sequencing data-       
+                                                                                
+                _                                               _               
+               '  )                                            '  )             
+               .-'             _________________               .-'              
+              (____           | __    ___ __    |             (____             
+           C)|     \          ||__) /\ | /  |__||          C)|     \            
+             \     /          ||__)/--\| \__|  ||            \     /            
+              \___/           |_________________|             \___/             
+
+                           [CRISPResso version 2.3.4]                           
+[Note that as of version 2.3.0 FLASh and Trimmomatic have been replaced by fastp for read merging and trimming. Accordingly, the --flash_command and --trimmomatic_command parameters have been replaced with --fastp_command. Also, --trimmomatic_options_string has been replaced with --fastp_options_string.
+
+Also in version 2.3.2, when running CRISPRessoPooled in mixed-mode (amplicon file and genome are provided) the default behavior will be as if the --demultiplex_only_at_amplicons parameter is provided. This change means that reads and amplicons do not need to align to the exact locations.]
+       [For support contact k.clement@utah.edu or support@edilytics.com]        
+ 
+
+INFO  @ Mon, 23 Nov 2026 11:34:44 (0.0% done):
+	 Creating Folder /Users/jungminkoh/Github/crispr-amplicon-analysis/CRISPRessoBatch_on_rab11a 
+
+WARNING @ Mon, 23 Nov 2026 11:34:44 (0.0% done):
+	 Folder /Users/jungminkoh/Github/crispr-amplicon-analysis/CRISPRessoBatch_on_rab11a already exists. 
+
+INFO  @ Mon, 23 Nov 2026 11:34:44 (0.0% done):
+	 Running CRISPResso with 4 processes 
+
+INFO  @ Mon, 23 Nov 2026 11:34:45 (0.0% done):
+	 
+                               ~~~CRISPResso 2~~~                               
+        -Analysis of genome editing outcomes from deep sequencing data-         
+                                                                                
+                                        _                                       
+                                       '  )                                     
+                                       .-'                                      
+                                      (____                                     
+                                   C)|     \                                    
+                                     \     /                                    
+                                      \___/                                     
+
+                           [CRISPResso version 2.3.4]                           
+[Note that as of version 2.3.0 FLASh and Trimmomatic have been replaced by fastp for read merging and trimming. Accordingly, the --flash_command and --trimmomatic_command parameters have been replaced with --fastp_command. Also, --trimmomatic_options_string has been replaced with --fastp_options_string.
+
+Also in version 2.3.2, when running CRISPRessoPooled in mixed-mode (amplicon file and genome are provided) the default behavior will be as if the --demultiplex_only_at_amplicons parameter is provided. This change means that reads and amplicons do not need to align to the exact locations.]
+       [For support contact k.clement@utah.edu or support@edilytics.com]        
+ 
+
+WARNING @ Mon, 23 Nov 2026 11:34:45 (0.0% done):
+	 Folder /Users/jungminkoh/Github/crispr-amplicon-analysis/CRISPRessoBatch_on_rab11a/CRISPResso_on_NC already exists. 
+
+INFO  @ Mon, 23 Nov 2026 11:34:45 (2.0% done):
+	 Computing quantification windows 
+
+INFO  @ Mon, 23 Nov 2026 11:34:45 (2.0% done):
+	 Counting reads in input 
+
+INFO  @ Mon, 23 Nov 2026 11:34:45 (0.0% done):
+	 
+                               ~~~CRISPResso 2~~~                               
+        -Analysis of genome editing outcomes from deep sequencing data-         
+                                                                                
+                                        _                                       
+                                       '  )                                     
+                                       .-'                                      
+                                      (____                                     
+                                   C)|     \                                    
+                                     \     /                                    
+                                      \___/                                     
+
+                           [CRISPResso version 2.3.4]                           
+[Note that as of version 2.3.0 FLASh and Trimmomatic have been replaced by fastp for read merging and trimming. Accordingly, the --flash_command and --trimmomatic_command parameters have been replaced with --fastp_command. Also, --trimmomatic_options_string has been replaced with --fastp_options_string.
+
+Also in version 2.3.2, when running CRISPRessoPooled in mixed-mode (amplicon file and genome are provided) the default behavior will be as if the --demultiplex_only_at_amplicons parameter is provided. This change means that reads and amplicons do not need to align to the exact locations.]
+       [For support contact k.clement@utah.edu or support@edilytics.com]        
+ 
+
+WARNING @ Mon, 23 Nov 2026 11:34:45 (0.0% done):
+	 Folder /Users/jungminkoh/Github/crispr-amplicon-analysis/CRISPRessoBatch_on_rab11a/CRISPResso_on_RNP_WT already exists. 
+
+INFO  @ Mon, 23 Nov 2026 11:34:45 (2.0% done):
+	 Computing quantification windows 
+
+INFO  @ Mon, 23 Nov 2026 11:34:45 (2.0% done):
+	 Counting reads in input 
+
+INFO  @ Mon, 23 Nov 2026 11:34:45 (0.0% done):
+	 
+                               ~~~CRISPResso 2~~~                               
+        -Analysis of genome editing outcomes from deep sequencing data-         
+                                                                                
+                                        _                                       
+                                       '  )                                     
+                                       .-'                                      
+                                      (____                                     
+                                   C)|     \                                    
+                                     \     /                                    
+                                      \___/                                     
+
+                           [CRISPResso version 2.3.4]                           
+[Note that as of version 2.3.0 FLASh and Trimmomatic have been replaced by fastp for read merging and trimming. Accordingly, the --flash_command and --trimmomatic_command parameters have been replaced with --fastp_command. Also, --trimmomatic_options_string has been replaced with --fastp_options_string.
+
+Also in version 2.3.2, when running CRISPRessoPooled in mixed-mode (amplicon file and genome are provided) the default behavior will be as if the --demultiplex_only_at_amplicons parameter is provided. This change means that reads and amplicons do not need to align to the exact locations.]
+       [For support contact k.clement@utah.edu or support@edilytics.com]        
+ 
+
+WARNING @ Mon, 23 Nov 2026 11:34:45 (0.0% done):
+	 Folder /Users/jungminkoh/Github/crispr-amplicon-analysis/CRISPRessoBatch_on_rab11a/CRISPResso_on_AIO_Cas9_WT_1 already exists. 
+
+INFO  @ Mon, 23 Nov 2026 11:34:45 (2.0% done):
+	 Computing quantification windows 
+
+INFO  @ Mon, 23 Nov 2026 11:34:45 (2.0% done):
+	 Counting reads in input 
+
+INFO  @ Mon, 23 Nov 2026 11:34:45 (0.0% done):
+	 
+                               ~~~CRISPResso 2~~~                               
+        -Analysis of genome editing outcomes from deep sequencing data-         
+                                                                                
+                                        _                                       
+                                       '  )                                     
+                                       .-'                                      
+                                      (____                                     
+                                   C)|     \                                    
+                                     \     /                                    
+                                      \___/                                     
+
+                           [CRISPResso version 2.3.4]                           
+[Note that as of version 2.3.0 FLASh and Trimmomatic have been replaced by fastp for read merging and trimming. Accordingly, the --flash_command and --trimmomatic_command parameters have been replaced with --fastp_command. Also, --trimmomatic_options_string has been replaced with --fastp_options_string.
+
+Also in version 2.3.2, when running CRISPRessoPooled in mixed-mode (amplicon file and genome are provided) the default behavior will be as if the --demultiplex_only_at_amplicons parameter is provided. This change means that reads and amplicons do not need to align to the exact locations.]
+       [For support contact k.clement@utah.edu or support@edilytics.com]        
+ 
+
+WARNING @ Mon, 23 Nov 2026 11:34:45 (0.0% done):
+	 Folder /Users/jungminkoh/Github/crispr-amplicon-analysis/CRISPRessoBatch_on_rab11a/CRISPResso_on_AIO_Cas9_WT_2 already exists. 
+
+INFO  @ Mon, 23 Nov 2026 11:34:45 (2.0% done):
+	 Computing quantification windows 
+
+INFO  @ Mon, 23 Nov 2026 11:34:45 (2.0% done):
+	 Counting reads in input 
+
+INFO  @ Mon, 23 Nov 2026 11:34:45 (2.0% done):
+	 Processing sequences with fastp... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:45 (2.0% done):
+	 Processing sequences with fastp... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:45 (2.0% done):
+	 Processing sequences with fastp... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:45 (2.0% done):
+	 Processing sequences with fastp... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:46 (6.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:46 (7.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:46 (7.0% done):
+	 Counting reads after preprocessing... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:46 (7.0% done):
+	 Aligning sequences... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:46 (7.0% done):
+	 Finished reading fastq file; 3931 unique reads found of 25410 total reads found  
+
+INFO  @ Mon, 23 Nov 2026 11:34:46 (7.0% done):
+	 Processing Reads; 0 Completed out of 3931 Unique Reads 
+
+INFO  @ Mon, 23 Nov 2026 11:34:46 (6.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:46 (7.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:46 (7.0% done):
+	 Counting reads after preprocessing... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:46 (7.0% done):
+	 Aligning sequences... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:46 (7.0% done):
+	 Finished reading fastq file; 6281 unique reads found of 31159 total reads found  
+
+INFO  @ Mon, 23 Nov 2026 11:34:46 (7.0% done):
+	 Processing Reads; 0 Completed out of 6281 Unique Reads 
+
+INFO  @ Mon, 23 Nov 2026 11:34:46 (6.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:46 (7.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:46 (7.0% done):
+	 Counting reads after preprocessing... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:46 (6.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:46 (7.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:46 (7.0% done):
+	 Counting reads after preprocessing... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:46 (7.0% done):
+	 Aligning sequences... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:46 (7.0% done):
+	 Aligning sequences... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:46 (7.0% done):
+	 Iterating over fastq file to identify reads; 50000 reads identified. 
+
+INFO  @ Mon, 23 Nov 2026 11:34:46 (7.0% done):
+	 Finished reading fastq file; 8524 unique reads found of 46933 total reads found  
+
+INFO  @ Mon, 23 Nov 2026 11:34:46 (7.0% done):
+	 Processing Reads; 0 Completed out of 8524 Unique Reads 
+
+INFO  @ Mon, 23 Nov 2026 11:34:46 (7.0% done):
+	 Finished reading fastq file; 2761 unique reads found of 53109 total reads found  
+
+INFO  @ Mon, 23 Nov 2026 11:34:46 (7.0% done):
+	 Processing Reads; 0 Completed out of 2761 Unique Reads 
+
+INFO  @ Mon, 23 Nov 2026 11:34:47 (7.0% done):
+	 Finished reads; N_TOT_READS: 53109 N_COMPUTED_ALN: 2619 N_CACHED_ALN: 50242 N_COMPUTED_NOTALN: 142 N_CACHED_NOTALN: 106 
+
+INFO  @ Mon, 23 Nov 2026 11:34:47 (20.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:47 (20.0% done):
+	 Quantifying indels/substitutions... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:47 (7.0% done):
+	 Finished reads; N_TOT_READS: 25410 N_COMPUTED_ALN: 1462 N_CACHED_ALN: 6513 N_COMPUTED_NOTALN: 2469 N_CACHED_NOTALN: 14966 
+
+INFO  @ Mon, 23 Nov 2026 11:34:47 (20.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:47 (20.0% done):
+	 Quantifying indels/substitutions... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:48 (30.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:48 (30.0% done):
+	 Calculating allele frequencies... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:48 (40.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:48 (40.0% done):
+	 Saving processed data... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:48 (40.0% done):
+	 Making Plots... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:48 (30.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:48 (30.0% done):
+	 Calculating allele frequencies... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:48 (40.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:48 (40.0% done):
+	 Saving processed data... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:48 (40.0% done):
+	 Making Plots... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:48 (48.0% done):
+	 Processing plots for amplicon Reference... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:48 (48.0% done):
+	 Processing plots for amplicon Reference... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:48 (7.0% done):
+	 Finished reads; N_TOT_READS: 31159 N_COMPUTED_ALN: 5766 N_CACHED_ALN: 22530 N_COMPUTED_NOTALN: 515 N_CACHED_NOTALN: 2348 
+
+INFO  @ Mon, 23 Nov 2026 11:34:48 (20.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:48 (20.0% done):
+	 Quantifying indels/substitutions... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:49 (30.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:49 (30.0% done):
+	 Calculating allele frequencies... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:49 (40.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:49 (40.0% done):
+	 Saving processed data... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:49 (40.0% done):
+	 Making Plots... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:49 (7.0% done):
+	 Finished reads; N_TOT_READS: 46933 N_COMPUTED_ALN: 8097 N_CACHED_ALN: 37097 N_COMPUTED_NOTALN: 427 N_CACHED_NOTALN: 1312 
+
+INFO  @ Mon, 23 Nov 2026 11:34:49 (20.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:49 (20.0% done):
+	 Quantifying indels/substitutions... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:49 (48.0% done):
+	 Processing plots for amplicon Reference... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:49 (30.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:49 (30.0% done):
+	 Calculating allele frequencies... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:50 (40.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:50 (40.0% done):
+	 Saving processed data... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:50 (40.0% done):
+	 Making Plots... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:50 (48.0% done):
+	 Processing plots for amplicon Reference... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:50 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:50 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:50 (48.0% done):
+	 Removing Intermediate files... 
+
+WARNING @ Mon, 23 Nov 2026 11:34:50 (48.0% done):
+	 >=1.0% of reads have modifications at the start or end. Total reads: 52861, Irregular reads: 1325. 
+
+WARNING @ Mon, 23 Nov 2026 11:34:50 (48.0% done):
+	 >=0.2% of substitutions were outside of the quantification window. Total substitutions: 12122, Substitutions outside window: 12033. 
+
+WARNING @ Mon, 23 Nov 2026 11:34:50 (48.0% done):
+	 >=30.0% of modifications were substitutions. This could potentially indicate poor sequencing quality. Total modifications: 16398, Substitutions: 12122. 
+
+INFO  @ Mon, 23 Nov 2026 11:34:50 (48.0% done):
+	                                                                                
+                                        _                                      
+                                       '  )                                    
+                                       .-'                                     
+                                      (____                                    
+                                   C)|     \                                   
+                                     \     /                                   
+                                      \___/                                    
+ 
+
+INFO  @ Mon, 23 Nov 2026 11:34:50 (100.0% done):
+	 Analysis Complete! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:50 (15.0% done):
+	 Completed 1/16 runs 
+
+INFO  @ Mon, 23 Nov 2026 11:34:51 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:51 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:51 (48.0% done):
+	 Removing Intermediate files... 
+
+WARNING @ Mon, 23 Nov 2026 11:34:51 (48.0% done):
+	 <=90.0% of reads were aligned. Total reads: 25410, Aligned reads: 7975. 
+
+WARNING @ Mon, 23 Nov 2026 11:34:51 (48.0% done):
+	 >=1.0% of reads have modifications at the start or end. Total reads: 7975, Irregular reads: 117. 
+
+WARNING @ Mon, 23 Nov 2026 11:34:51 (48.0% done):
+	 >=0.2% of substitutions were outside of the quantification window. Total substitutions: 5573, Substitutions outside window: 5109. 
+
+INFO  @ Mon, 23 Nov 2026 11:34:51 (48.0% done):
+	                                                                                
+                                        _                                      
+                                       '  )                                    
+                                       .-'                                     
+                                      (____                                    
+                                   C)|     \                                   
+                                     \     /                                   
+                                      \___/                                    
+ 
+
+INFO  @ Mon, 23 Nov 2026 11:34:51 (100.0% done):
+	 Analysis Complete! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:51 (0.0% done):
+	 
+                               ~~~CRISPResso 2~~~                               
+        -Analysis of genome editing outcomes from deep sequencing data-         
+                                                                                
+                                        _                                       
+                                       '  )                                     
+                                       .-'                                      
+                                      (____                                     
+                                   C)|     \                                    
+                                     \     /                                    
+                                      \___/                                     
+
+                           [CRISPResso version 2.3.4]                           
+[Note that as of version 2.3.0 FLASh and Trimmomatic have been replaced by fastp for read merging and trimming. Accordingly, the --flash_command and --trimmomatic_command parameters have been replaced with --fastp_command. Also, --trimmomatic_options_string has been replaced with --fastp_options_string.
+
+Also in version 2.3.2, when running CRISPRessoPooled in mixed-mode (amplicon file and genome are provided) the default behavior will be as if the --demultiplex_only_at_amplicons parameter is provided. This change means that reads and amplicons do not need to align to the exact locations.]
+       [For support contact k.clement@utah.edu or support@edilytics.com]        
+ 
+
+WARNING @ Mon, 23 Nov 2026 11:34:51 (0.0% done):
+	 Folder /Users/jungminkoh/Github/crispr-amplicon-analysis/CRISPRessoBatch_on_rab11a/CRISPResso_on_AIO_DrRecA_1 already exists. 
+
+INFO  @ Mon, 23 Nov 2026 11:34:51 (2.0% done):
+	 Computing quantification windows 
+
+INFO  @ Mon, 23 Nov 2026 11:34:51 (2.0% done):
+	 Counting reads in input 
+
+INFO  @ Mon, 23 Nov 2026 11:34:51 (20.0% done):
+	 Completed 2/16 runs 
+
+INFO  @ Mon, 23 Nov 2026 11:34:51 (2.0% done):
+	 Processing sequences with fastp... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:52 (6.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:52 (7.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:52 (7.0% done):
+	 Counting reads after preprocessing... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:52 (7.0% done):
+	 Aligning sequences... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:52 (7.0% done):
+	 Finished reading fastq file; 6022 unique reads found of 33945 total reads found  
+
+INFO  @ Mon, 23 Nov 2026 11:34:52 (7.0% done):
+	 Processing Reads; 0 Completed out of 6022 Unique Reads 
+
+INFO  @ Mon, 23 Nov 2026 11:34:52 (0.0% done):
+	 
+                               ~~~CRISPResso 2~~~                               
+        -Analysis of genome editing outcomes from deep sequencing data-         
+                                                                                
+                                        _                                       
+                                       '  )                                     
+                                       .-'                                      
+                                      (____                                     
+                                   C)|     \                                    
+                                     \     /                                    
+                                      \___/                                     
+
+                           [CRISPResso version 2.3.4]                           
+[Note that as of version 2.3.0 FLASh and Trimmomatic have been replaced by fastp for read merging and trimming. Accordingly, the --flash_command and --trimmomatic_command parameters have been replaced with --fastp_command. Also, --trimmomatic_options_string has been replaced with --fastp_options_string.
+
+Also in version 2.3.2, when running CRISPRessoPooled in mixed-mode (amplicon file and genome are provided) the default behavior will be as if the --demultiplex_only_at_amplicons parameter is provided. This change means that reads and amplicons do not need to align to the exact locations.]
+       [For support contact k.clement@utah.edu or support@edilytics.com]        
+ 
+
+WARNING @ Mon, 23 Nov 2026 11:34:52 (0.0% done):
+	 Folder /Users/jungminkoh/Github/crispr-amplicon-analysis/CRISPRessoBatch_on_rab11a/CRISPResso_on_AIO_DrRecA_2 already exists. 
+
+INFO  @ Mon, 23 Nov 2026 11:34:52 (2.0% done):
+	 Computing quantification windows 
+
+INFO  @ Mon, 23 Nov 2026 11:34:52 (2.0% done):
+	 Counting reads in input 
+
+INFO  @ Mon, 23 Nov 2026 11:34:52 (2.0% done):
+	 Processing sequences with fastp... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:52 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:52 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:52 (48.0% done):
+	 Removing Intermediate files... 
+
+WARNING @ Mon, 23 Nov 2026 11:34:52 (48.0% done):
+	 >=1.0% of reads have modifications at the start or end. Total reads: 28296, Irregular reads: 448. 
+
+WARNING @ Mon, 23 Nov 2026 11:34:52 (48.0% done):
+	 >=0.2% of substitutions were outside of the quantification window. Total substitutions: 10847, Substitutions outside window: 10317. 
+
+INFO  @ Mon, 23 Nov 2026 11:34:52 (48.0% done):
+	                                                                                
+                                        _                                      
+                                       '  )                                    
+                                       .-'                                     
+                                      (____                                    
+                                   C)|     \                                   
+                                     \     /                                   
+                                      \___/                                    
+ 
+
+INFO  @ Mon, 23 Nov 2026 11:34:52 (100.0% done):
+	 Analysis Complete! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:53 (6.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:53 (7.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:53 (7.0% done):
+	 Counting reads after preprocessing... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:53 (25.0% done):
+	 Completed 3/16 runs 
+
+INFO  @ Mon, 23 Nov 2026 11:34:53 (7.0% done):
+	 Aligning sequences... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:53 (7.0% done):
+	 Iterating over fastq file to identify reads; 50000 reads identified. 
+
+INFO  @ Mon, 23 Nov 2026 11:34:53 (7.0% done):
+	 Finished reading fastq file; 5503 unique reads found of 56257 total reads found  
+
+INFO  @ Mon, 23 Nov 2026 11:34:53 (7.0% done):
+	 Processing Reads; 0 Completed out of 5503 Unique Reads 
+
+INFO  @ Mon, 23 Nov 2026 11:34:53 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:53 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:53 (48.0% done):
+	 Removing Intermediate files... 
+
+WARNING @ Mon, 23 Nov 2026 11:34:53 (48.0% done):
+	 >=1.0% of reads have modifications at the start or end. Total reads: 45194, Irregular reads: 959. 
+
+WARNING @ Mon, 23 Nov 2026 11:34:53 (48.0% done):
+	 >=0.2% of substitutions were outside of the quantification window. Total substitutions: 16064, Substitutions outside window: 15495. 
+
+INFO  @ Mon, 23 Nov 2026 11:34:53 (48.0% done):
+	                                                                                
+                                        _                                      
+                                       '  )                                    
+                                       .-'                                     
+                                      (____                                    
+                                   C)|     \                                   
+                                     \     /                                   
+                                      \___/                                    
+ 
+
+INFO  @ Mon, 23 Nov 2026 11:34:53 (100.0% done):
+	 Analysis Complete! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:53 (0.0% done):
+	 
+                               ~~~CRISPResso 2~~~                               
+        -Analysis of genome editing outcomes from deep sequencing data-         
+                                                                                
+                                        _                                       
+                                       '  )                                     
+                                       .-'                                      
+                                      (____                                     
+                                   C)|     \                                    
+                                     \     /                                    
+                                      \___/                                     
+
+                           [CRISPResso version 2.3.4]                           
+[Note that as of version 2.3.0 FLASh and Trimmomatic have been replaced by fastp for read merging and trimming. Accordingly, the --flash_command and --trimmomatic_command parameters have been replaced with --fastp_command. Also, --trimmomatic_options_string has been replaced with --fastp_options_string.
+
+Also in version 2.3.2, when running CRISPRessoPooled in mixed-mode (amplicon file and genome are provided) the default behavior will be as if the --demultiplex_only_at_amplicons parameter is provided. This change means that reads and amplicons do not need to align to the exact locations.]
+       [For support contact k.clement@utah.edu or support@edilytics.com]        
+ 
+
+WARNING @ Mon, 23 Nov 2026 11:34:53 (0.0% done):
+	 Folder /Users/jungminkoh/Github/crispr-amplicon-analysis/CRISPRessoBatch_on_rab11a/CRISPResso_on_AIO_DrRecA_20AA_1 already exists. 
+
+INFO  @ Mon, 23 Nov 2026 11:34:53 (2.0% done):
+	 Computing quantification windows 
+
+INFO  @ Mon, 23 Nov 2026 11:34:53 (2.0% done):
+	 Counting reads in input 
+
+INFO  @ Mon, 23 Nov 2026 11:34:53 (2.0% done):
+	 Processing sequences with fastp... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:53 (7.0% done):
+	 Finished reads; N_TOT_READS: 33945 N_COMPUTED_ALN: 5667 N_CACHED_ALN: 26898 N_COMPUTED_NOTALN: 355 N_CACHED_NOTALN: 1025 
+
+INFO  @ Mon, 23 Nov 2026 11:34:53 (20.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:53 (20.0% done):
+	 Quantifying indels/substitutions... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:54 (30.0% done):
+	 Completed 4/16 runs 
+
+INFO  @ Mon, 23 Nov 2026 11:34:54 (30.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:54 (30.0% done):
+	 Calculating allele frequencies... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:54 (40.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:54 (40.0% done):
+	 Saving processed data... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:54 (40.0% done):
+	 Making Plots... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:54 (6.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:54 (7.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:54 (7.0% done):
+	 Counting reads after preprocessing... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:54 (7.0% done):
+	 Aligning sequences... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:54 (7.0% done):
+	 Iterating over fastq file to identify reads; 50000 reads identified. 
+
+INFO  @ Mon, 23 Nov 2026 11:34:54 (7.0% done):
+	 Finished reading fastq file; 9736 unique reads found of 55128 total reads found  
+
+INFO  @ Mon, 23 Nov 2026 11:34:54 (7.0% done):
+	 Processing Reads; 0 Completed out of 9736 Unique Reads 
+
+INFO  @ Mon, 23 Nov 2026 11:34:54 (48.0% done):
+	 Processing plots for amplicon Reference... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:54 (0.0% done):
+	 
+                               ~~~CRISPResso 2~~~                               
+        -Analysis of genome editing outcomes from deep sequencing data-         
+                                                                                
+                                        _                                       
+                                       '  )                                     
+                                       .-'                                      
+                                      (____                                     
+                                   C)|     \                                    
+                                     \     /                                    
+                                      \___/                                     
+
+                           [CRISPResso version 2.3.4]                           
+[Note that as of version 2.3.0 FLASh and Trimmomatic have been replaced by fastp for read merging and trimming. Accordingly, the --flash_command and --trimmomatic_command parameters have been replaced with --fastp_command. Also, --trimmomatic_options_string has been replaced with --fastp_options_string.
+
+Also in version 2.3.2, when running CRISPRessoPooled in mixed-mode (amplicon file and genome are provided) the default behavior will be as if the --demultiplex_only_at_amplicons parameter is provided. This change means that reads and amplicons do not need to align to the exact locations.]
+       [For support contact k.clement@utah.edu or support@edilytics.com]        
+ 
+
+WARNING @ Mon, 23 Nov 2026 11:34:54 (0.0% done):
+	 Folder /Users/jungminkoh/Github/crispr-amplicon-analysis/CRISPRessoBatch_on_rab11a/CRISPResso_on_AIO_DrRecA_20AA_2 already exists. 
+
+INFO  @ Mon, 23 Nov 2026 11:34:54 (2.0% done):
+	 Computing quantification windows 
+
+INFO  @ Mon, 23 Nov 2026 11:34:54 (2.0% done):
+	 Counting reads in input 
+
+INFO  @ Mon, 23 Nov 2026 11:34:54 (2.0% done):
+	 Processing sequences with fastp... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:55 (6.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:55 (7.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:55 (7.0% done):
+	 Counting reads after preprocessing... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:55 (7.0% done):
+	 Aligning sequences... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:55 (7.0% done):
+	 Finished reading fastq file; 7320 unique reads found of 37602 total reads found  
+
+INFO  @ Mon, 23 Nov 2026 11:34:55 (7.0% done):
+	 Processing Reads; 0 Completed out of 7320 Unique Reads 
+
+INFO  @ Mon, 23 Nov 2026 11:34:57 (7.0% done):
+	 Finished reads; N_TOT_READS: 55128 N_COMPUTED_ALN: 9055 N_CACHED_ALN: 43062 N_COMPUTED_NOTALN: 681 N_CACHED_NOTALN: 2330 
+
+INFO  @ Mon, 23 Nov 2026 11:34:57 (20.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:57 (20.0% done):
+	 Quantifying indels/substitutions... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:57 (7.0% done):
+	 Finished reads; N_TOT_READS: 37602 N_COMPUTED_ALN: 6941 N_CACHED_ALN: 29421 N_COMPUTED_NOTALN: 379 N_CACHED_NOTALN: 861 
+
+INFO  @ Mon, 23 Nov 2026 11:34:57 (20.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:57 (20.0% done):
+	 Quantifying indels/substitutions... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:58 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:58 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:58 (48.0% done):
+	 Removing Intermediate files... 
+
+WARNING @ Mon, 23 Nov 2026 11:34:58 (48.0% done):
+	 >=1.0% of reads have modifications at the start or end. Total reads: 32565, Irregular reads: 550. 
+
+WARNING @ Mon, 23 Nov 2026 11:34:58 (48.0% done):
+	 >=0.2% of substitutions were outside of the quantification window. Total substitutions: 10773, Substitutions outside window: 10341. 
+
+INFO  @ Mon, 23 Nov 2026 11:34:58 (30.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:58 (30.0% done):
+	 Calculating allele frequencies... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:58 (40.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:58 (40.0% done):
+	 Saving processed data... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:58 (48.0% done):
+	                                                                                
+                                        _                                      
+                                       '  )                                    
+                                       .-'                                     
+                                      (____                                    
+                                   C)|     \                                   
+                                     \     /                                   
+                                      \___/                                    
+ 
+
+INFO  @ Mon, 23 Nov 2026 11:34:58 (100.0% done):
+	 Analysis Complete! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:58 (30.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:58 (30.0% done):
+	 Calculating allele frequencies... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:58 (40.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:58 (40.0% done):
+	 Saving processed data... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:58 (40.0% done):
+	 Making Plots... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:58 (40.0% done):
+	 Making Plots... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:58 (35.0% done):
+	 Completed 5/16 runs 
+
+INFO  @ Mon, 23 Nov 2026 11:34:58 (48.0% done):
+	 Processing plots for amplicon Reference... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:58 (48.0% done):
+	 Processing plots for amplicon Reference... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:59 (0.0% done):
+	 
+                               ~~~CRISPResso 2~~~                               
+        -Analysis of genome editing outcomes from deep sequencing data-         
+                                                                                
+                                        _                                       
+                                       '  )                                     
+                                       .-'                                      
+                                      (____                                     
+                                   C)|     \                                    
+                                     \     /                                    
+                                      \___/                                     
+
+                           [CRISPResso version 2.3.4]                           
+[Note that as of version 2.3.0 FLASh and Trimmomatic have been replaced by fastp for read merging and trimming. Accordingly, the --flash_command and --trimmomatic_command parameters have been replaced with --fastp_command. Also, --trimmomatic_options_string has been replaced with --fastp_options_string.
+
+Also in version 2.3.2, when running CRISPRessoPooled in mixed-mode (amplicon file and genome are provided) the default behavior will be as if the --demultiplex_only_at_amplicons parameter is provided. This change means that reads and amplicons do not need to align to the exact locations.]
+       [For support contact k.clement@utah.edu or support@edilytics.com]        
+ 
+
+WARNING @ Mon, 23 Nov 2026 11:34:59 (0.0% done):
+	 Folder /Users/jungminkoh/Github/crispr-amplicon-analysis/CRISPRessoBatch_on_rab11a/CRISPResso_on_AIO_RAD51_1 already exists. 
+
+INFO  @ Mon, 23 Nov 2026 11:34:59 (2.0% done):
+	 Computing quantification windows 
+
+INFO  @ Mon, 23 Nov 2026 11:34:59 (2.0% done):
+	 Counting reads in input 
+
+INFO  @ Mon, 23 Nov 2026 11:34:59 (2.0% done):
+	 Processing sequences with fastp... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:59 (7.0% done):
+	 Finished reads; N_TOT_READS: 56257 N_COMPUTED_ALN: 18 N_CACHED_ALN: 8 N_COMPUTED_NOTALN: 5485 N_CACHED_NOTALN: 50746 
+
+INFO  @ Mon, 23 Nov 2026 11:34:59 (20.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:59 (20.0% done):
+	 Quantifying indels/substitutions... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:59 (30.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:59 (30.0% done):
+	 Calculating allele frequencies... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:59 (40.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:59 (40.0% done):
+	 Saving processed data... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:59 (40.0% done):
+	 Making Plots... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:59 (6.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:59 (7.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:34:59 (7.0% done):
+	 Counting reads after preprocessing... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:59 (7.0% done):
+	 Aligning sequences... 
+
+INFO  @ Mon, 23 Nov 2026 11:34:59 (7.0% done):
+	 Finished reading fastq file; 6510 unique reads found of 44687 total reads found  
+
+INFO  @ Mon, 23 Nov 2026 11:34:59 (7.0% done):
+	 Processing Reads; 0 Completed out of 6510 Unique Reads 
+
+INFO  @ Mon, 23 Nov 2026 11:35:00 (48.0% done):
+	 Processing plots for amplicon Reference... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:02 (7.0% done):
+	 Finished reads; N_TOT_READS: 44687 N_COMPUTED_ALN: 6165 N_CACHED_ALN: 37427 N_COMPUTED_NOTALN: 345 N_CACHED_NOTALN: 750 
+
+INFO  @ Mon, 23 Nov 2026 11:35:02 (20.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:02 (20.0% done):
+	 Quantifying indels/substitutions... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:02 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:02 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:02 (48.0% done):
+	 Removing Intermediate files... 
+
+WARNING @ Mon, 23 Nov 2026 11:35:02 (48.0% done):
+	 >=1.0% of reads have modifications at the start or end. Total reads: 36362, Irregular reads: 908. 
+
+WARNING @ Mon, 23 Nov 2026 11:35:02 (48.0% done):
+	 >=0.2% of substitutions were outside of the quantification window. Total substitutions: 12971, Substitutions outside window: 12474. 
+
+INFO  @ Mon, 23 Nov 2026 11:35:02 (48.0% done):
+	                                                                                
+                                        _                                      
+                                       '  )                                    
+                                       .-'                                     
+                                      (____                                    
+                                   C)|     \                                   
+                                     \     /                                   
+                                      \___/                                    
+ 
+
+INFO  @ Mon, 23 Nov 2026 11:35:02 (100.0% done):
+	 Analysis Complete! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:02 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:02 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:02 (48.0% done):
+	 Removing Intermediate files... 
+
+WARNING @ Mon, 23 Nov 2026 11:35:02 (48.0% done):
+	 >=1.0% of reads have modifications at the start or end. Total reads: 52117, Irregular reads: 1222. 
+
+WARNING @ Mon, 23 Nov 2026 11:35:02 (48.0% done):
+	 >=0.2% of substitutions were outside of the quantification window. Total substitutions: 18182, Substitutions outside window: 17481. 
+
+INFO  @ Mon, 23 Nov 2026 11:35:02 (48.0% done):
+	                                                                                
+                                        _                                      
+                                       '  )                                    
+                                       .-'                                     
+                                      (____                                    
+                                   C)|     \                                   
+                                     \     /                                   
+                                      \___/                                    
+ 
+
+INFO  @ Mon, 23 Nov 2026 11:35:02 (100.0% done):
+	 Analysis Complete! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:02 (40.0% done):
+	 Completed 6/16 runs 
+
+INFO  @ Mon, 23 Nov 2026 11:35:02 (30.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:02 (30.0% done):
+	 Calculating allele frequencies... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:02 (40.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:02 (40.0% done):
+	 Saving processed data... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:02 (45.0% done):
+	 Completed 7/16 runs 
+
+INFO  @ Mon, 23 Nov 2026 11:35:02 (40.0% done):
+	 Making Plots... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:02 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:02 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:02 (48.0% done):
+	 Removing Intermediate files... 
+
+WARNING @ Mon, 23 Nov 2026 11:35:02 (48.0% done):
+	 <=90.0% of reads were aligned. Total reads: 56257, Aligned reads: 26. 
+
+WARNING @ Mon, 23 Nov 2026 11:35:02 (48.0% done):
+	 >=1.0% of reads have modifications at the start or end. Total reads: 26, Irregular reads: 1. 
+
+WARNING @ Mon, 23 Nov 2026 11:35:02 (48.0% done):
+	 >=0.2% of substitutions were outside of the quantification window. Total substitutions: 8, Substitutions outside window: 8. 
+
+INFO  @ Mon, 23 Nov 2026 11:35:02 (48.0% done):
+	                                                                                
+                                        _                                      
+                                       '  )                                    
+                                       .-'                                     
+                                      (____                                    
+                                   C)|     \                                   
+                                     \     /                                   
+                                      \___/                                    
+ 
+
+INFO  @ Mon, 23 Nov 2026 11:35:02 (100.0% done):
+	 Analysis Complete! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:02 (50.0% done):
+	 Completed 8/16 runs 
+
+INFO  @ Mon, 23 Nov 2026 11:35:02 (48.0% done):
+	 Processing plots for amplicon Reference... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:03 (0.0% done):
+	 
+                               ~~~CRISPResso 2~~~                               
+        -Analysis of genome editing outcomes from deep sequencing data-         
+                                                                                
+                                        _                                       
+                                       '  )                                     
+                                       .-'                                      
+                                      (____                                     
+                                   C)|     \                                    
+                                     \     /                                    
+                                      \___/                                     
+
+                           [CRISPResso version 2.3.4]                           
+[Note that as of version 2.3.0 FLASh and Trimmomatic have been replaced by fastp for read merging and trimming. Accordingly, the --flash_command and --trimmomatic_command parameters have been replaced with --fastp_command. Also, --trimmomatic_options_string has been replaced with --fastp_options_string.
+
+Also in version 2.3.2, when running CRISPRessoPooled in mixed-mode (amplicon file and genome are provided) the default behavior will be as if the --demultiplex_only_at_amplicons parameter is provided. This change means that reads and amplicons do not need to align to the exact locations.]
+       [For support contact k.clement@utah.edu or support@edilytics.com]        
+ 
+
+WARNING @ Mon, 23 Nov 2026 11:35:03 (0.0% done):
+	 Folder /Users/jungminkoh/Github/crispr-amplicon-analysis/CRISPRessoBatch_on_rab11a/CRISPResso_on_AIO_RAD51_2 already exists. 
+
+INFO  @ Mon, 23 Nov 2026 11:35:03 (2.0% done):
+	 Computing quantification windows 
+
+INFO  @ Mon, 23 Nov 2026 11:35:03 (2.0% done):
+	 Counting reads in input 
+
+INFO  @ Mon, 23 Nov 2026 11:35:03 (2.0% done):
+	 Processing sequences with fastp... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:03 (0.0% done):
+	 
+                               ~~~CRISPResso 2~~~                               
+        -Analysis of genome editing outcomes from deep sequencing data-         
+                                                                                
+                                        _                                       
+                                       '  )                                     
+                                       .-'                                      
+                                      (____                                     
+                                   C)|     \                                    
+                                     \     /                                    
+                                      \___/                                     
+
+                           [CRISPResso version 2.3.4]                           
+[Note that as of version 2.3.0 FLASh and Trimmomatic have been replaced by fastp for read merging and trimming. Accordingly, the --flash_command and --trimmomatic_command parameters have been replaced with --fastp_command. Also, --trimmomatic_options_string has been replaced with --fastp_options_string.
+
+Also in version 2.3.2, when running CRISPRessoPooled in mixed-mode (amplicon file and genome are provided) the default behavior will be as if the --demultiplex_only_at_amplicons parameter is provided. This change means that reads and amplicons do not need to align to the exact locations.]
+       [For support contact k.clement@utah.edu or support@edilytics.com]        
+ 
+
+WARNING @ Mon, 23 Nov 2026 11:35:03 (0.0% done):
+	 Folder /Users/jungminkoh/Github/crispr-amplicon-analysis/CRISPRessoBatch_on_rab11a/CRISPResso_on_AIO_RECA_1 already exists. 
+
+INFO  @ Mon, 23 Nov 2026 11:35:03 (2.0% done):
+	 Computing quantification windows 
+
+INFO  @ Mon, 23 Nov 2026 11:35:03 (2.0% done):
+	 Counting reads in input 
+
+INFO  @ Mon, 23 Nov 2026 11:35:03 (2.0% done):
+	 Processing sequences with fastp... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:03 (0.0% done):
+	 
+                               ~~~CRISPResso 2~~~                               
+        -Analysis of genome editing outcomes from deep sequencing data-         
+                                                                                
+                                        _                                       
+                                       '  )                                     
+                                       .-'                                      
+                                      (____                                     
+                                   C)|     \                                    
+                                     \     /                                    
+                                      \___/                                     
+
+                           [CRISPResso version 2.3.4]                           
+[Note that as of version 2.3.0 FLASh and Trimmomatic have been replaced by fastp for read merging and trimming. Accordingly, the --flash_command and --trimmomatic_command parameters have been replaced with --fastp_command. Also, --trimmomatic_options_string has been replaced with --fastp_options_string.
+
+Also in version 2.3.2, when running CRISPRessoPooled in mixed-mode (amplicon file and genome are provided) the default behavior will be as if the --demultiplex_only_at_amplicons parameter is provided. This change means that reads and amplicons do not need to align to the exact locations.]
+       [For support contact k.clement@utah.edu or support@edilytics.com]        
+ 
+
+WARNING @ Mon, 23 Nov 2026 11:35:03 (0.0% done):
+	 Folder /Users/jungminkoh/Github/crispr-amplicon-analysis/CRISPRessoBatch_on_rab11a/CRISPResso_on_AIO_RECA_2 already exists. 
+
+INFO  @ Mon, 23 Nov 2026 11:35:03 (2.0% done):
+	 Computing quantification windows 
+
+INFO  @ Mon, 23 Nov 2026 11:35:03 (2.0% done):
+	 Counting reads in input 
+
+INFO  @ Mon, 23 Nov 2026 11:35:03 (6.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:03 (7.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:03 (7.0% done):
+	 Counting reads after preprocessing... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:03 (2.0% done):
+	 Processing sequences with fastp... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:03 (7.0% done):
+	 Aligning sequences... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:03 (7.0% done):
+	 Finished reading fastq file; 8106 unique reads found of 46922 total reads found  
+
+INFO  @ Mon, 23 Nov 2026 11:35:03 (7.0% done):
+	 Processing Reads; 0 Completed out of 8106 Unique Reads 
+
+INFO  @ Mon, 23 Nov 2026 11:35:04 (6.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:04 (7.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:04 (7.0% done):
+	 Counting reads after preprocessing... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:04 (7.0% done):
+	 Aligning sequences... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:04 (7.0% done):
+	 Iterating over fastq file to identify reads; 50000 reads identified. 
+
+INFO  @ Mon, 23 Nov 2026 11:35:04 (7.0% done):
+	 Finished reading fastq file; 8709 unique reads found of 61788 total reads found  
+
+INFO  @ Mon, 23 Nov 2026 11:35:04 (7.0% done):
+	 Processing Reads; 0 Completed out of 8709 Unique Reads 
+
+INFO  @ Mon, 23 Nov 2026 11:35:04 (6.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:04 (7.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:04 (7.0% done):
+	 Counting reads after preprocessing... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:04 (7.0% done):
+	 Aligning sequences... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:04 (7.0% done):
+	 Finished reading fastq file; 6441 unique reads found of 45393 total reads found  
+
+INFO  @ Mon, 23 Nov 2026 11:35:04 (7.0% done):
+	 Processing Reads; 0 Completed out of 6441 Unique Reads 
+
+INFO  @ Mon, 23 Nov 2026 11:35:06 (7.0% done):
+	 Finished reads; N_TOT_READS: 45393 N_COMPUTED_ALN: 6062 N_CACHED_ALN: 38148 N_COMPUTED_NOTALN: 379 N_CACHED_NOTALN: 804 
+
+INFO  @ Mon, 23 Nov 2026 11:35:06 (20.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:06 (20.0% done):
+	 Quantifying indels/substitutions... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:06 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:06 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:06 (48.0% done):
+	 Removing Intermediate files... 
+
+WARNING @ Mon, 23 Nov 2026 11:35:06 (48.0% done):
+	 >=1.0% of reads have modifications at the start or end. Total reads: 43592, Irregular reads: 877. 
+
+WARNING @ Mon, 23 Nov 2026 11:35:06 (48.0% done):
+	 >=0.2% of substitutions were outside of the quantification window. Total substitutions: 13909, Substitutions outside window: 13371. 
+
+INFO  @ Mon, 23 Nov 2026 11:35:06 (48.0% done):
+	                                                                                
+                                        _                                      
+                                       '  )                                    
+                                       .-'                                     
+                                      (____                                    
+                                   C)|     \                                   
+                                     \     /                                   
+                                      \___/                                    
+ 
+
+INFO  @ Mon, 23 Nov 2026 11:35:06 (100.0% done):
+	 Analysis Complete! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:06 (7.0% done):
+	 Finished reads; N_TOT_READS: 46922 N_COMPUTED_ALN: 7101 N_CACHED_ALN: 34131 N_COMPUTED_NOTALN: 1005 N_CACHED_NOTALN: 4685 
+
+INFO  @ Mon, 23 Nov 2026 11:35:06 (20.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:06 (20.0% done):
+	 Quantifying indels/substitutions... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:06 (55.0% done):
+	 Completed 9/16 runs 
+
+INFO  @ Mon, 23 Nov 2026 11:35:06 (30.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:06 (30.0% done):
+	 Calculating allele frequencies... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:06 (40.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:06 (40.0% done):
+	 Saving processed data... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:06 (40.0% done):
+	 Making Plots... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:06 (7.0% done):
+	 Finished reads; N_TOT_READS: 61788 N_COMPUTED_ALN: 7831 N_CACHED_ALN: 49009 N_COMPUTED_NOTALN: 878 N_CACHED_NOTALN: 4070 
+
+INFO  @ Mon, 23 Nov 2026 11:35:06 (20.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:06 (20.0% done):
+	 Quantifying indels/substitutions... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:07 (30.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:07 (30.0% done):
+	 Calculating allele frequencies... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:07 (40.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:07 (40.0% done):
+	 Saving processed data... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:07 (40.0% done):
+	 Making Plots... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:07 (48.0% done):
+	 Processing plots for amplicon Reference... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:07 (0.0% done):
+	 
+                               ~~~CRISPResso 2~~~                               
+        -Analysis of genome editing outcomes from deep sequencing data-         
+                                                                                
+                                        _                                       
+                                       '  )                                     
+                                       .-'                                      
+                                      (____                                     
+                                   C)|     \                                    
+                                     \     /                                    
+                                      \___/                                     
+
+                           [CRISPResso version 2.3.4]                           
+[Note that as of version 2.3.0 FLASh and Trimmomatic have been replaced by fastp for read merging and trimming. Accordingly, the --flash_command and --trimmomatic_command parameters have been replaced with --fastp_command. Also, --trimmomatic_options_string has been replaced with --fastp_options_string.
+
+Also in version 2.3.2, when running CRISPRessoPooled in mixed-mode (amplicon file and genome are provided) the default behavior will be as if the --demultiplex_only_at_amplicons parameter is provided. This change means that reads and amplicons do not need to align to the exact locations.]
+       [For support contact k.clement@utah.edu or support@edilytics.com]        
+ 
+
+WARNING @ Mon, 23 Nov 2026 11:35:07 (0.0% done):
+	 Folder /Users/jungminkoh/Github/crispr-amplicon-analysis/CRISPRessoBatch_on_rab11a/CRISPResso_on_AIO_FECO_1 already exists. 
+
+INFO  @ Mon, 23 Nov 2026 11:35:07 (2.0% done):
+	 Computing quantification windows 
+
+INFO  @ Mon, 23 Nov 2026 11:35:07 (2.0% done):
+	 Counting reads in input 
+
+INFO  @ Mon, 23 Nov 2026 11:35:07 (30.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:07 (30.0% done):
+	 Calculating allele frequencies... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:07 (40.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:07 (40.0% done):
+	 Saving processed data... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:07 (2.0% done):
+	 Processing sequences with fastp... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:07 (40.0% done):
+	 Making Plots... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:07 (48.0% done):
+	 Processing plots for amplicon Reference... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:08 (48.0% done):
+	 Processing plots for amplicon Reference... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:08 (6.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:08 (7.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:08 (7.0% done):
+	 Counting reads after preprocessing... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:08 (7.0% done):
+	 Aligning sequences... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:08 (7.0% done):
+	 Iterating over fastq file to identify reads; 50000 reads identified. 
+
+INFO  @ Mon, 23 Nov 2026 11:35:08 (7.0% done):
+	 Finished reading fastq file; 9816 unique reads found of 53845 total reads found  
+
+INFO  @ Mon, 23 Nov 2026 11:35:08 (7.0% done):
+	 Processing Reads; 0 Completed out of 9816 Unique Reads 
+
+INFO  @ Mon, 23 Nov 2026 11:35:10 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:10 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:10 (48.0% done):
+	 Removing Intermediate files... 
+
+WARNING @ Mon, 23 Nov 2026 11:35:10 (48.0% done):
+	 >=1.0% of reads have modifications at the start or end. Total reads: 44210, Irregular reads: 932. 
+
+WARNING @ Mon, 23 Nov 2026 11:35:10 (48.0% done):
+	 >=0.2% of substitutions were outside of the quantification window. Total substitutions: 13423, Substitutions outside window: 12926. 
+
+INFO  @ Mon, 23 Nov 2026 11:35:10 (48.0% done):
+	                                                                                
+                                        _                                      
+                                       '  )                                    
+                                       .-'                                     
+                                      (____                                    
+                                   C)|     \                                   
+                                     \     /                                   
+                                      \___/                                    
+ 
+
+INFO  @ Mon, 23 Nov 2026 11:35:10 (100.0% done):
+	 Analysis Complete! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:10 (60.0% done):
+	 Completed 10/16 runs 
+
+INFO  @ Mon, 23 Nov 2026 11:35:11 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:11 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:11 (48.0% done):
+	 Removing Intermediate files... 
+
+WARNING @ Mon, 23 Nov 2026 11:35:11 (48.0% done):
+	 <=90.0% of reads were aligned. Total reads: 46922, Aligned reads: 41232. 
+
+WARNING @ Mon, 23 Nov 2026 11:35:11 (48.0% done):
+	 >=1.0% of reads have modifications at the start or end. Total reads: 41232, Irregular reads: 682. 
+
+WARNING @ Mon, 23 Nov 2026 11:35:11 (48.0% done):
+	 >=0.2% of substitutions were outside of the quantification window. Total substitutions: 15266, Substitutions outside window: 14738. 
+
+INFO  @ Mon, 23 Nov 2026 11:35:11 (48.0% done):
+	                                                                                
+                                        _                                      
+                                       '  )                                    
+                                       .-'                                     
+                                      (____                                    
+                                   C)|     \                                   
+                                     \     /                                   
+                                      \___/                                    
+ 
+
+INFO  @ Mon, 23 Nov 2026 11:35:11 (100.0% done):
+	 Analysis Complete! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:11 (7.0% done):
+	 Finished reads; N_TOT_READS: 53845 N_COMPUTED_ALN: 9203 N_CACHED_ALN: 42573 N_COMPUTED_NOTALN: 613 N_CACHED_NOTALN: 1456 
+
+INFO  @ Mon, 23 Nov 2026 11:35:11 (20.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:11 (20.0% done):
+	 Quantifying indels/substitutions... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:11 (65.0% done):
+	 Completed 11/16 runs 
+
+INFO  @ Mon, 23 Nov 2026 11:35:11 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:11 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:11 (48.0% done):
+	 Removing Intermediate files... 
+
+WARNING @ Mon, 23 Nov 2026 11:35:11 (48.0% done):
+	 >=1.0% of reads have modifications at the start or end. Total reads: 56840, Irregular reads: 1332. 
+
+WARNING @ Mon, 23 Nov 2026 11:35:11 (48.0% done):
+	 >=0.2% of substitutions were outside of the quantification window. Total substitutions: 18669, Substitutions outside window: 18047. 
+
+INFO  @ Mon, 23 Nov 2026 11:35:11 (48.0% done):
+	                                                                                
+                                        _                                      
+                                       '  )                                    
+                                       .-'                                     
+                                      (____                                    
+                                   C)|     \                                   
+                                     \     /                                   
+                                      \___/                                    
+ 
+
+INFO  @ Mon, 23 Nov 2026 11:35:11 (100.0% done):
+	 Analysis Complete! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:11 (70.0% done):
+	 Completed 12/16 runs 
+
+INFO  @ Mon, 23 Nov 2026 11:35:11 (0.0% done):
+	 
+                               ~~~CRISPResso 2~~~                               
+        -Analysis of genome editing outcomes from deep sequencing data-         
+                                                                                
+                                        _                                       
+                                       '  )                                     
+                                       .-'                                      
+                                      (____                                     
+                                   C)|     \                                    
+                                     \     /                                    
+                                      \___/                                     
+
+                           [CRISPResso version 2.3.4]                           
+[Note that as of version 2.3.0 FLASh and Trimmomatic have been replaced by fastp for read merging and trimming. Accordingly, the --flash_command and --trimmomatic_command parameters have been replaced with --fastp_command. Also, --trimmomatic_options_string has been replaced with --fastp_options_string.
+
+Also in version 2.3.2, when running CRISPRessoPooled in mixed-mode (amplicon file and genome are provided) the default behavior will be as if the --demultiplex_only_at_amplicons parameter is provided. This change means that reads and amplicons do not need to align to the exact locations.]
+       [For support contact k.clement@utah.edu or support@edilytics.com]        
+ 
+
+WARNING @ Mon, 23 Nov 2026 11:35:11 (0.0% done):
+	 Folder /Users/jungminkoh/Github/crispr-amplicon-analysis/CRISPRessoBatch_on_rab11a/CRISPResso_on_AIO_FECO_2 already exists. 
+
+INFO  @ Mon, 23 Nov 2026 11:35:11 (2.0% done):
+	 Computing quantification windows 
+
+INFO  @ Mon, 23 Nov 2026 11:35:11 (2.0% done):
+	 Counting reads in input 
+
+INFO  @ Mon, 23 Nov 2026 11:35:11 (2.0% done):
+	 Processing sequences with fastp... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:12 (30.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:12 (30.0% done):
+	 Calculating allele frequencies... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:12 (40.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:12 (40.0% done):
+	 Saving processed data... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:12 (40.0% done):
+	 Making Plots... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:12 (0.0% done):
+	 
+                               ~~~CRISPResso 2~~~                               
+        -Analysis of genome editing outcomes from deep sequencing data-         
+                                                                                
+                                        _                                       
+                                       '  )                                     
+                                       .-'                                      
+                                      (____                                     
+                                   C)|     \                                    
+                                     \     /                                    
+                                      \___/                                     
+
+                           [CRISPResso version 2.3.4]                           
+[Note that as of version 2.3.0 FLASh and Trimmomatic have been replaced by fastp for read merging and trimming. Accordingly, the --flash_command and --trimmomatic_command parameters have been replaced with --fastp_command. Also, --trimmomatic_options_string has been replaced with --fastp_options_string.
+
+Also in version 2.3.2, when running CRISPRessoPooled in mixed-mode (amplicon file and genome are provided) the default behavior will be as if the --demultiplex_only_at_amplicons parameter is provided. This change means that reads and amplicons do not need to align to the exact locations.]
+       [For support contact k.clement@utah.edu or support@edilytics.com]        
+ 
+
+WARNING @ Mon, 23 Nov 2026 11:35:12 (0.0% done):
+	 Folder /Users/jungminkoh/Github/crispr-amplicon-analysis/CRISPRessoBatch_on_rab11a/CRISPResso_on_AIO_Brex_1 already exists. 
+
+INFO  @ Mon, 23 Nov 2026 11:35:12 (2.0% done):
+	 Computing quantification windows 
+
+INFO  @ Mon, 23 Nov 2026 11:35:12 (2.0% done):
+	 Counting reads in input 
+
+INFO  @ Mon, 23 Nov 2026 11:35:12 (2.0% done):
+	 Processing sequences with fastp... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:12 (6.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:12 (7.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:12 (7.0% done):
+	 Counting reads after preprocessing... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:12 (7.0% done):
+	 Aligning sequences... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:12 (7.0% done):
+	 Finished reading fastq file; 6906 unique reads found of 33235 total reads found  
+
+INFO  @ Mon, 23 Nov 2026 11:35:12 (7.0% done):
+	 Processing Reads; 0 Completed out of 6906 Unique Reads 
+
+INFO  @ Mon, 23 Nov 2026 11:35:12 (48.0% done):
+	 Processing plots for amplicon Reference... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:12 (0.0% done):
+	 
+                               ~~~CRISPResso 2~~~                               
+        -Analysis of genome editing outcomes from deep sequencing data-         
+                                                                                
+                                        _                                       
+                                       '  )                                     
+                                       .-'                                      
+                                      (____                                     
+                                   C)|     \                                    
+                                     \     /                                    
+                                      \___/                                     
+
+                           [CRISPResso version 2.3.4]                           
+[Note that as of version 2.3.0 FLASh and Trimmomatic have been replaced by fastp for read merging and trimming. Accordingly, the --flash_command and --trimmomatic_command parameters have been replaced with --fastp_command. Also, --trimmomatic_options_string has been replaced with --fastp_options_string.
+
+Also in version 2.3.2, when running CRISPRessoPooled in mixed-mode (amplicon file and genome are provided) the default behavior will be as if the --demultiplex_only_at_amplicons parameter is provided. This change means that reads and amplicons do not need to align to the exact locations.]
+       [For support contact k.clement@utah.edu or support@edilytics.com]        
+ 
+
+WARNING @ Mon, 23 Nov 2026 11:35:12 (0.0% done):
+	 Folder /Users/jungminkoh/Github/crispr-amplicon-analysis/CRISPRessoBatch_on_rab11a/CRISPResso_on_AIO_Brex_2 already exists. 
+
+INFO  @ Mon, 23 Nov 2026 11:35:12 (2.0% done):
+	 Computing quantification windows 
+
+INFO  @ Mon, 23 Nov 2026 11:35:12 (2.0% done):
+	 Counting reads in input 
+
+INFO  @ Mon, 23 Nov 2026 11:35:12 (6.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:12 (7.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:12 (7.0% done):
+	 Counting reads after preprocessing... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:12 (2.0% done):
+	 Processing sequences with fastp... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:12 (7.0% done):
+	 Aligning sequences... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:12 (7.0% done):
+	 Finished reading fastq file; 7954 unique reads found of 39038 total reads found  
+
+INFO  @ Mon, 23 Nov 2026 11:35:12 (7.0% done):
+	 Processing Reads; 0 Completed out of 7954 Unique Reads 
+
+INFO  @ Mon, 23 Nov 2026 11:35:13 (6.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:13 (7.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:13 (7.0% done):
+	 Counting reads after preprocessing... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:13 (7.0% done):
+	 Aligning sequences... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:13 (7.0% done):
+	 Finished reading fastq file; 7910 unique reads found of 44733 total reads found  
+
+INFO  @ Mon, 23 Nov 2026 11:35:13 (7.0% done):
+	 Processing Reads; 0 Completed out of 7910 Unique Reads 
+
+INFO  @ Mon, 23 Nov 2026 11:35:14 (7.0% done):
+	 Finished reads; N_TOT_READS: 33235 N_COMPUTED_ALN: 6427 N_CACHED_ALN: 25138 N_COMPUTED_NOTALN: 479 N_CACHED_NOTALN: 1191 
+
+INFO  @ Mon, 23 Nov 2026 11:35:14 (20.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:14 (20.0% done):
+	 Quantifying indels/substitutions... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:15 (30.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:15 (30.0% done):
+	 Calculating allele frequencies... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:15 (40.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:15 (40.0% done):
+	 Saving processed data... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:15 (40.0% done):
+	 Making Plots... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:15 (7.0% done):
+	 Finished reads; N_TOT_READS: 39038 N_COMPUTED_ALN: 7082 N_CACHED_ALN: 29631 N_COMPUTED_NOTALN: 872 N_CACHED_NOTALN: 1453 
+
+INFO  @ Mon, 23 Nov 2026 11:35:15 (20.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:15 (20.0% done):
+	 Quantifying indels/substitutions... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:15 (48.0% done):
+	 Processing plots for amplicon Reference... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:16 (7.0% done):
+	 Finished reads; N_TOT_READS: 44733 N_COMPUTED_ALN: 7522 N_CACHED_ALN: 35780 N_COMPUTED_NOTALN: 388 N_CACHED_NOTALN: 1043 
+
+INFO  @ Mon, 23 Nov 2026 11:35:16 (20.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:16 (20.0% done):
+	 Quantifying indels/substitutions... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:16 (30.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:16 (30.0% done):
+	 Calculating allele frequencies... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:16 (40.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:16 (40.0% done):
+	 Saving processed data... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:16 (40.0% done):
+	 Making Plots... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:16 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:16 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:16 (48.0% done):
+	 Removing Intermediate files... 
+
+WARNING @ Mon, 23 Nov 2026 11:35:16 (48.0% done):
+	 >=1.0% of reads have modifications at the start or end. Total reads: 51776, Irregular reads: 1318. 
+
+WARNING @ Mon, 23 Nov 2026 11:35:16 (48.0% done):
+	 >=0.2% of substitutions were outside of the quantification window. Total substitutions: 18878, Substitutions outside window: 18158. 
+
+INFO  @ Mon, 23 Nov 2026 11:35:16 (48.0% done):
+	                                                                                
+                                        _                                      
+                                       '  )                                    
+                                       .-'                                     
+                                      (____                                    
+                                   C)|     \                                   
+                                     \     /                                   
+                                      \___/                                    
+ 
+
+INFO  @ Mon, 23 Nov 2026 11:35:16 (100.0% done):
+	 Analysis Complete! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:16 (30.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:16 (30.0% done):
+	 Calculating allele frequencies... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:16 (40.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:16 (40.0% done):
+	 Saving processed data... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:16 (75.0% done):
+	 Completed 13/16 runs 
+
+INFO  @ Mon, 23 Nov 2026 11:35:16 (40.0% done):
+	 Making Plots... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:16 (48.0% done):
+	 Processing plots for amplicon Reference... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:17 (48.0% done):
+	 Processing plots for amplicon Reference... 
+
+INFO  @ Mon, 23 Nov 2026 11:35:19 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:19 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:19 (48.0% done):
+	 Removing Intermediate files... 
+
+WARNING @ Mon, 23 Nov 2026 11:35:19 (48.0% done):
+	 >=1.0% of reads have modifications at the start or end. Total reads: 31565, Irregular reads: 660. 
+
+WARNING @ Mon, 23 Nov 2026 11:35:19 (48.0% done):
+	 >=0.2% of substitutions were outside of the quantification window. Total substitutions: 10870, Substitutions outside window: 10384. 
+
+INFO  @ Mon, 23 Nov 2026 11:35:19 (48.0% done):
+	                                                                                
+                                        _                                      
+                                       '  )                                    
+                                       .-'                                     
+                                      (____                                    
+                                   C)|     \                                   
+                                     \     /                                   
+                                      \___/                                    
+ 
+
+INFO  @ Mon, 23 Nov 2026 11:35:19 (100.0% done):
+	 Analysis Complete! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:19 (80.0% done):
+	 Completed 14/16 runs 
+
+INFO  @ Mon, 23 Nov 2026 11:35:20 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:20 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:20 (48.0% done):
+	 Removing Intermediate files... 
+
+WARNING @ Mon, 23 Nov 2026 11:35:20 (48.0% done):
+	 >=1.0% of reads have modifications at the start or end. Total reads: 36713, Irregular reads: 931. 
+
+WARNING @ Mon, 23 Nov 2026 11:35:20 (48.0% done):
+	 >=0.2% of substitutions were outside of the quantification window. Total substitutions: 13539, Substitutions outside window: 13117. 
+
+INFO  @ Mon, 23 Nov 2026 11:35:20 (48.0% done):
+	                                                                                
+                                        _                                      
+                                       '  )                                    
+                                       .-'                                     
+                                      (____                                    
+                                   C)|     \                                   
+                                     \     /                                   
+                                      \___/                                    
+ 
+
+INFO  @ Mon, 23 Nov 2026 11:35:20 (100.0% done):
+	 Analysis Complete! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:20 (85.0% done):
+	 Completed 15/16 runs 
+
+INFO  @ Mon, 23 Nov 2026 11:35:20 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:20 (48.0% done):
+	 Done! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:20 (48.0% done):
+	 Removing Intermediate files... 
+
+WARNING @ Mon, 23 Nov 2026 11:35:20 (48.0% done):
+	 >=1.0% of reads have modifications at the start or end. Total reads: 43302, Irregular reads: 1044. 
+
+WARNING @ Mon, 23 Nov 2026 11:35:20 (48.0% done):
+	 >=0.2% of substitutions were outside of the quantification window. Total substitutions: 14007, Substitutions outside window: 13474. 
+
+INFO  @ Mon, 23 Nov 2026 11:35:20 (48.0% done):
+	                                                                                
+                                        _                                      
+                                       '  )                                    
+                                       .-'                                     
+                                      (____                                    
+                                   C)|     \                                   
+                                     \     /                                   
+                                      \___/                                    
+ 
+
+INFO  @ Mon, 23 Nov 2026 11:35:20 (100.0% done):
+	 Analysis Complete! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:20 (90.0% done):
+	 Completed 16/16 runs 
+
+INFO  @ Mon, 23 Nov 2026 11:35:20 (90.0% done):
+	 Finished all batches 
+
+INFO  @ Mon, 23 Nov 2026 11:35:20 (90.0% done):
+	 Reporting summary for amplicon: "Reference" 
+
+INFO  @ Mon, 23 Nov 2026 11:35:20 (90.0% done):
+	 All guides are equal. Performing comparison of batches for amplicon 'Reference' 
+
+INFO  @ Mon, 23 Nov 2026 11:35:24 (100.0% done):
+	 Analysis Complete! 
+
+INFO  @ Mon, 23 Nov 2026 11:35:24 (100.0% done):
+	                                                                                
+                                        _                                      
+                                       '  )                                    
+                                       .-'                                     
+                                      (____                                    
+                                   C)|     \                                   
+                                     \     /                                   
+                                      \___/                                    
+ 
+

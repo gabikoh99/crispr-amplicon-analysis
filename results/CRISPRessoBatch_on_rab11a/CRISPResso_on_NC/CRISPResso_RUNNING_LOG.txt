@@ -1,0 +1,99 @@
+CRISPResso version 2.3.4
+[Command used]:
+/opt/homebrew/Caskroom/miniforge/base/envs/crispresso2_env/bin/CRISPResso -o /Users/jungminkoh/Github/crispr-amplicon-analysis/CRISPRessoBatch_on_rab11a --name NC --verbosity 3 --default_min_aln_score 60 --flash_command None --fastq_r2 data/fastq/SRR32811088_2.fastq.gz --base_editor_target_ref_skip_allele_count 0 --exclude_bp_from_left 15 --min_bp_quality_or_N 0 --min_frequency_alleles_around_cut_to_plot 0.2 --needleman_wunsch_gap_extend -2 --guide_seq GGTAGTCGTACTCGTCGTCG --prime_editing_pegRNA_scaffold_min_match_length 1 --exclude_bp_from_right 15 --quantification_window_size 1 --conversion_nuc_to T --flexiguide_homology 80 --amplicon_seq ACCCAGTCCGGCAGTTGAAGCTCGGCGCTCGGGTTACCCCTGCAGCGACGCCCCCTGGTCCCACAGATACCACTGCTGCTCCCGCCCTTTCGCTCCTCGGCCGCGCAATGGGCACCCGCGACGACGAGTACGACTACCTCTTTAAAGGTGAGGCCATGGGCTCTCGCACTCTACACAGTCCTCGTTCGGGGACCCGGGCCACTCCCGGTGGACCCTCGTGCCGGCCACCCCTGCACTGATATAGGCCTCCCTCAGCCCTTCCTTTTTGTGCGGTT --fastp_command fastp --amplicon_name Reference --max_rows_alleles_around_cut_to_plot 50 --min_average_read_quality 0 --needleman_wunsch_gap_incentive 1 --aln_seed_count 5 --prime_editing_gap_open_penalty -50 --min_single_bp_quality 0 --conversion_nuc_from C --config_file None --needleman_wunsch_aln_matrix_loc EDNAFULL --fastq_r1 data/fastq/SRR32811088_1.fastq.gz --n_processes 1 --max_paired_end_reads_overlap None --prime_editing_gap_extend_penalty 0 --quantification_window_center -3 --min_paired_end_reads_overlap 10 --trimmomatic_command None --flexiguide_seq None --prime_editing_pegRNA_extension_quantification_window_size 5 --plot_window_size 20 --aln_seed_min 2 --flexiguide_gap_extend_penalty -2 --needleman_wunsch_gap_open -20 --flexiguide_gap_open_penalty -20 --aln_seed_len 10
+
+[Execution log]:
+CRISPRessoPro not installed
+Computing quantification windows
+Added 0 guides with flexible matching
+	Original flexiguides: ['None']
+	Found guides: []
+	Mismatch locations: []
+Counting reads in input
+Processing sequences with fastp...
+Read1 before filtering:
+total reads: 54714
+total bases: 13649933
+Q20 bases: 13394163(98.1262%)
+Q30 bases: 13255350(97.1093%)
+Q40 bases: 3(2.19781e-05%)
+
+Read2 before filtering:
+total reads: 54714
+total bases: 13703332
+Q20 bases: 12836360(93.6733%)
+Q30 bases: 12295398(89.7256%)
+Q40 bases: 0(0%)
+
+Merged and filtered:
+total reads: 53109
+total bases: 14564653
+Q20 bases: 14351922(98.5394%)
+Q30 bases: 14239893(97.7702%)
+Q40 bases: 3(2.05978e-05%)
+
+Filtering result:
+reads passed filter: 109428
+reads failed due to low quality: 0
+reads failed due to too many N: 0
+reads corrected by overlap analysis: 12519
+bases corrected by overlap analysis: 26899
+
+Duplication rate: 81.4124%
+
+Insert size peak (evaluated by paired-end reads): 275
+
+Read pairs merged: 53109
+% of original read pairs: 97.0666%
+% in reads after filtering: 100%
+
+
+JSON report: /Users/jungminkoh/Github/crispr-amplicon-analysis/CRISPRessoBatch_on_rab11a/CRISPResso_on_NC/fastp_report.json
+HTML report: /Users/jungminkoh/Github/crispr-amplicon-analysis/CRISPRessoBatch_on_rab11a/CRISPResso_on_NC/fastp_report.html
+
+fastp -i data/fastq/SRR32811088_1.fastq.gz -I data/fastq/SRR32811088_2.fastq.gz --merge --merged_out /Users/jungminkoh/Github/crispr-amplicon-analysis/CRISPRessoBatch_on_rab11a/CRISPResso_on_NC/out.extendedFrags.fastq.gz --out1 /Users/jungminkoh/Github/crispr-amplicon-analysis/CRISPRessoBatch_on_rab11a/CRISPResso_on_NC/out.notCombined_1.fastq.gz --out2 /Users/jungminkoh/Github/crispr-amplicon-analysis/CRISPRessoBatch_on_rab11a/CRISPResso_on_NC/out.notCombined_2.fastq.gz --overlap_len_require 10 --thread 1 --json /Users/jungminkoh/Github/crispr-amplicon-analysis/CRISPRessoBatch_on_rab11a/CRISPResso_on_NC/fastp_report.json --html /Users/jungminkoh/Github/crispr-amplicon-analysis/CRISPRessoBatch_on_rab11a/CRISPResso_on_NC/fastp_report.html --disable_adapter_trimming --disable_trim_poly_g --disable_quality_filtering --disable_length_filtering 
+fastp v1.4.0, time used: 1 seconds
+Done!
+Done!
+Counting reads after preprocessing...
+Aligning sequences...
+Iterating over fastq file to identify reads; 50000 reads identified.
+Finished reading fastq file; 2761 unique reads found of 53109 total reads found 
+Processing Reads; 0 Completed out of 2761 Unique Reads
+Finished reads; N_TOT_READS: 53109 N_COMPUTED_ALN: 2619 N_CACHED_ALN: 50242 N_COMPUTED_NOTALN: 142 N_CACHED_NOTALN: 106
+Done!
+Quantifying indels/substitutions...
+Done!
+Calculating allele frequencies...
+Done!
+Saving processed data...
+Making Plots...
+Plotting read bar plot
+Plotting read class pie chart and bar plot
+Plotting alleles homology histogram
+Processing plots for amplicon Reference...
+Plotting nucleotide quilt across amplicon
+Plotting nucleotide distribuition around sgRNA GGTAGTCGTACTCGTCGTCG for Reference
+Plotting indel size distribution for Reference
+Plotting frequency deletions/insertions for Reference
+Plotting amplication modifications for Reference
+Plotting modification frequency for Reference
+Plotting quantification window locations for Reference
+Plotting position dependent indel for Reference
+Plotting allele distribution around cut for Reference
+Done!
+Done!
+Removing Intermediate files...
+>=1.0% of reads have modifications at the start or end. Total reads: 52861, Irregular reads: 1325.
+>=0.2% of substitutions were outside of the quantification window. Total substitutions: 12122, Substitutions outside window: 12033.
+>=30.0% of modifications were substitutions. This could potentially indicate poor sequencing quality. Total modifications: 16398, Substitutions: 12122.
+                                                                               
+                                        _                                      
+                                       '  )                                    
+                                       .-'                                     
+                                      (____                                    
+                                   C)|     \                                   
+                                     \     /                                   
+                                      \___/                                    
+
+Analysis Complete!
