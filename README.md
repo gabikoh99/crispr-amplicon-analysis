@@ -8,7 +8,7 @@ Can I reproduce, with my own pipeline, the indel rates that Nam et al. (2025) re
 
 ## Data
 
-- Study: Nam et al., *Engineering tripartite gene editing machinery for highly efficient non-viral targeted genome integration*, Nature Communications 16:4569 (2025). doi:10.1038/s41467-025-59790-3
+- Study: Nam et al., *Engineering tripartite gene editing machinery for highly efficient non-viral targeted genome integration*, Nature Communications 16:4569 (2025). doi:10.1038/s41467-025-59790-3 (https://www.ncbi.nlm.nih.gov/sra/SRX28094858)
 - Raw reads: NCBI SRA, BioProject PRJNA1240319 (SRP572254). 16 runs, Illumina paired-end amplicon-seq, K562 cells, RAB11A target.
 - Conditions: negative control (NC), Cas9 WT (all-in-one plasmid, 2 replicates), Cas9 WT delivered as RNP (1), and six Cas9 fusions with 2 replicates each (FECO, Brex, DrRecA 20AA, RecA, RAD51, DrRecA).
 - Guide and primer sequences were taken from the study's Supplementary Tables 2 and 3.
